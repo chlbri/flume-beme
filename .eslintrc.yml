@@ -6,7 +6,7 @@ extends:
   - plugin:@typescript-eslint/recommended
   - next
   - next/core-web-vitals
-  
+
 parser: "@typescript-eslint/parser"
 
 parserOptions:
@@ -19,7 +19,5 @@ rules:
   indent: 0
   "@typescript-eslint/no-explicit-any": off
   linebreak-style: 0
-  quotes:
-    - warn
-    - single
+  space-in-parens: 1
   semi: 0
